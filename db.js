@@ -1,11 +1,11 @@
 module.exports = {
-  posts: [
-    { id: 1, title: 'Lorem Ipsum', views: 254, user_id: 123 },
-    { id: 2, title: 'Sic Dolor amet', views: 65, user_id: 456 },
+  films: [
+    { id: 1, title: 'Lorem Ipsum', views: 254, categories_id: 123 },
+    { id: 2, title: 'Sic Dolor amet', views: 65, categories_id: 456 },
   ],
-  users: [
-    { id: 123, name: 'John Doe' },
-    { id: 456, name: 'Jane Doe' },
+  categories: [
+    { id: 123, name: 'Fantasy' },
+    { id: 456, name: 'Triller' },
   ],
   comments: [
     {
